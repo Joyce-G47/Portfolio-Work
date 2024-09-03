@@ -1,0 +1,238 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background: #F9F7FE;
+}
+
+/* About Section */
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header {
+    position: absolute;
+    width: 100%;
+    max-width: 1136px;
+    height: 41.82px;
+    left: 165px;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    height: 41.82px;
+    background: url('path_to_image') no-repeat;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #6C63FF;
+}
+
+/* Caption */
+.caption {
+    position: absolute;
+    width: 693px;
+    text-align: center;
+    left: 50%;
+    top: 276px;
+    transform: translateX(-50%);
+}
+
+.caption h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #272142;
+}
+
+.caption h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #000000;
+    margin: 0;
+}
+
+.caption p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #272142;
+}
+
+/* Button */
+.button-container {
+    position: absolute;
+    left: 50%;
+    top: 566px;
+    transform: translateX(-50%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 30px;
+    background-color: #6C63FF;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Card */
+.card {
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/* Footer Section */
+.footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 100px auto 0;
+    background: #F9F7FE;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.work-inquiry {
+    text-align: center;
+}
+
+.work-inquiry h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.work-inquiry p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(39, 33, 66, 0.7);
+    margin-bottom: 20px;
+}
+
+.inquiry-button {
+    padding: 18px 30px;
+    background: #6C63FF;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-info .email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon .ellipse {
+    width: 40px;
+    height: 40px;
+    background: rgba(108, 99, 255, 0.05);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.social-icon i {
+    font-size: 18px;
+    color: #6C63FF;
+    position: absolute;
+    top: 9px;
+    left: 12px;
+}
